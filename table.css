@@ -1,0 +1,24 @@
+table{
+    width: 900px;
+    border: 1px solid green;
+    border-spacing: 1px;
+    background: green;
+    margin: auto;
+
+}
+
+td{
+    padding: 5px;
+    background: aliceblue;
+}
+.head{
+    text-align: center;
+}
+
+.tr1{
+    text-align: left;
+}
+
+.trAll{
+    text-align: right;
+}
