@@ -1,3 +1,64 @@
+
+@font-face {
+    font-family: Roboto; /* Гарнитура шрифта */
+    src: url(fonts/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
+}
+
+body{
+    font-family: Roboto;
+
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 14px;
+}
+
+#wraptop{
+    margin: 0 auto;
+}
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: block;
+    padding: 30px 0 30px;
+}
+
+#logo{
+    width: 218px;
+    height: 27px;
+    background-image: url(../images/logo.png);
+    margin: 0 auto;
+}
+
+.topMenu {
+    width: 100%;
+    max-width: 1064px;
+    padding-top: 16px;
+    margin: 0 auto;
+
+}
+
+.menu li{
+    list-style: none;
+    float: left;
+}
+
+.forList li{
+    text-decoration: none;
+    padding-top: 30px;
+    text-transform: uppercase;
+
+}
+
+#content{
+    width:100%;
+    height:400px;
+    background-color: aqua;
+}
 .page{
     max-width: 900px;
     display:block;
@@ -52,3 +113,33 @@
      list-style: none;
      float: left;
  }
+
+ .botMenu{
+     max-width: 900px;
+     display:block;
+     margin: 0 auto;
+     background: black;
+     height: 20px;
+ }
+
+ .bot li{
+     list-style: none;
+     float: left;
+
+
+ }
+
+ .Gulerian{
+     background-position: 0 0;
+     margin-left: 20px;
+     text-decoration: none;
+     color: white;
+     text-transform: uppercase;
+     font-size: 11px;
+ }
+
+.year{
+    text-transform: none;
+}
+
+
