@@ -1,11 +1,7 @@
 
-@font-face {
-    font-family: Roboto; /* Гарнитура шрифта */
-    src: url(fonts/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
-}
-
 body{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
+
 
 }
 
@@ -14,6 +10,10 @@ a{
     text-decoration: none;
     padding-right: 30px;
     font-size: 14px;
+}
+
+a:hover {
+    color: #a7998f;
 }
 
 #wraptop{
@@ -60,7 +60,7 @@ a{
     background-color: aqua;
 }
 .page{
-    max-width: 900px;
+    max-width: 1200px;
     display:block;
     margin: 0 auto;
     background: black;
